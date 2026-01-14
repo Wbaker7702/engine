@@ -11,6 +11,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'playcanvas'
+    permissions:
+      contents: write
+      id-token: write
     steps:
       - name: Check out code
         uses: actions/checkout@v5
