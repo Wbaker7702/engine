@@ -15,6 +15,8 @@ jobs:
   beta:
     runs-on: ubuntu-latest
     if: github.repository == 'playcanvas/engine' && github.ref_name == 'main'
+    permissions:
+      contents: write
     steps:
       - name: Generate app token
         id: app-token
