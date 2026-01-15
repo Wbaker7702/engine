@@ -1,4 +1,4 @@
-/* Copyright 2015-2025 PlayCanvas Ltd */
+/* Copyright 2015-2026 PlayCanvas Ltd */
 
 var spine = (function (pc) {
 	'use strict';
